@@ -55,7 +55,7 @@ U 1 1 5CE94DE1
 P 2900 2450
 F 0 "U2" H 2900 1550 60  0000 C CNN
 F 1 "2x16BUSconnector" H 2900 3350 60  0000 C CNN
-F 2 "" H 2900 2450 60  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_2x16_Pitch2.54mm" H 2900 2450 60  0001 C CNN
 F 3 "" H 2900 2450 60  0001 C CNN
 	1    2900 2450
 	1    0    0    -1  
@@ -85,7 +85,7 @@ U 1 1 5CE96A55
 P 5500 900
 F 0 "SW1" H 5550 1000 50  0000 L CNN
 F 1 "SW_Push_Dual" H 5500 630 50  0000 C CNN
-F 2 "" H 5500 1100 50  0001 C CNN
+F 2 "Buttons_Switches_THT:SW_TH_Tactile_Omron_B3F-10xx" H 5500 1100 50  0001 C CNN
 F 3 "" H 5500 1100 50  0001 C CNN
 	1    5500 900 
 	1    0    0    -1  
@@ -171,7 +171,7 @@ U 1 1 5CE97737
 P 8400 2250
 F 0 "J_SONAR2" H 8400 2450 50  0000 C CNN
 F 1 "Conn_01x04_Male" H 8400 1950 50  0000 C CNN
-F 2 "" H 8400 2250 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 8400 2250 50  0001 C CNN
 F 3 "" H 8400 2250 50  0001 C CNN
 	1    8400 2250
 	-1   0    0    1   
@@ -284,7 +284,7 @@ ECHO5
 Text Label 6200 2450 0    60   ~ 0
 SS1
 Text Label 6200 2550 0    60   ~ 0
-MOSO1
+MOSI1
 Text Label 6200 2650 0    60   ~ 0
 MISO1
 Text Label 6200 2750 0    60   ~ 0
@@ -295,7 +295,7 @@ U 1 1 5CE998B2
 P 2850 4500
 F 0 "U1" H 2850 4000 60  0000 C CNN
 F 1 "MCP2515-18Lead" H 2850 5050 60  0000 C CNN
-F 2 "" H 3000 4500 60  0001 C CNN
+F 2 "Housings_DIP:DIP-18_W7.62mm_Socket_LongPads" H 3000 4500 60  0001 C CNN
 F 3 "" H 3000 4500 60  0001 C CNN
 	1    2850 4500
 	1    0    0    -1  
@@ -324,7 +324,7 @@ U 1 1 5CE9A411
 P 1800 4750
 F 0 "Y1" H 1800 4900 50  0000 C CNN
 F 1 "16MHz" H 1800 4600 50  0000 C CNN
-F 2 "" H 1800 4750 50  0001 C CNN
+F 2 "Crystals:Crystal_SMD_HC49-SD_HandSoldering" H 1800 4750 50  0001 C CNN
 F 3 "" H 1800 4750 50  0001 C CNN
 	1    1800 4750
 	0    1    1    0   
@@ -378,7 +378,7 @@ U 1 1 5CE9B1B8
 P 5850 4700
 F 0 "R_CAN1" V 5930 4700 50  0000 C CNN
 F 1 "120R" V 5850 4700 50  0000 C CNN
-F 2 "" V 5780 4700 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5780 4700 50  0001 C CNN
 F 3 "" H 5850 4700 50  0001 C CNN
 	1    5850 4700
 	1    0    0    -1  
@@ -389,35 +389,13 @@ U 1 1 5CE9B32D
 P 4100 4900
 F 0 "R1" V 4180 4900 50  0000 C CNN
 F 1 "15k" V 4100 4900 50  0000 C CNN
-F 2 "" V 4030 4900 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4030 4900 50  0001 C CNN
 F 3 "" H 4100 4900 50  0001 C CNN
 	1    4100 4900
 	0    1    1    0   
 $EndComp
 Text Label 3800 4900 2    60   ~ 0
 GNDL
-$Comp
-L Conn_02x04_Counter_Clockwise J_I2C_A1
-U 1 1 5CE9B7E2
-P 10150 1000
-F 0 "J_I2C_A1" H 10200 1200 50  0000 C CNN
-F 1 "Conn_02x04_Counter_Clockwise" H 10200 700 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x04_Pitch2.54mm" H 10150 1000 50  0001 C CNN
-F 3 "" H 10150 1000 50  0001 C CNN
-	1    10150 1000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Conn_02x04_Counter_Clockwise J_I2C_B1
-U 1 1 5CE9BA0B
-P 10150 1700
-F 0 "J_I2C_B1" H 10200 1900 50  0000 C CNN
-F 1 "Conn_02x04_Counter_Clockwise" H 10200 1400 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x04_Pitch2.54mm" H 10150 1700 50  0001 C CNN
-F 3 "" H 10150 1700 50  0001 C CNN
-	1    10150 1700
-	1    0    0    -1  
-$EndComp
 Text Label 9950 1000 2    60   ~ 0
 GNDL
 Text Label 9950 1700 2    60   ~ 0
@@ -434,28 +412,6 @@ Text Label 9950 1800 2    60   ~ 0
 SCL
 Text Label 9950 1900 2    60   ~ 0
 SDA
-$Comp
-L Conn_02x03_Counter_Clockwise J_3V3
-U 1 1 5CE9CD46
-P 10150 2500
-F 0 "J_3V3" H 10200 2700 50  0000 C CNN
-F 1 "Conn_02x03_Counter_Clockwise" H 10200 2300 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm" H 10150 2500 50  0001 C CNN
-F 3 "" H 10150 2500 50  0001 C CNN
-	1    10150 2500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Conn_02x03_Counter_Clockwise J_5V1
-U 1 1 5CE9CFE6
-P 10150 3050
-F 0 "J_5V1" H 10200 3250 50  0000 C CNN
-F 1 "Conn_02x03_Counter_Clockwise" H 10200 2850 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm" H 10150 3050 50  0001 C CNN
-F 3 "" H 10150 3050 50  0001 C CNN
-	1    10150 3050
-	1    0    0    -1  
-$EndComp
 Text Label 4850 2050 2    60   ~ 0
 3V3
 Wire Wire Line
@@ -573,7 +529,7 @@ U 1 1 5CE9ADEC
 P 1350 3950
 F 0 "R_TXCAN1" V 1430 3950 50  0000 C CNN
 F 1 "680R" V 1350 3950 50  0000 C CNN
-F 2 "" V 1280 3950 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 1280 3950 50  0001 C CNN
 F 3 "" H 1350 3950 50  0001 C CNN
 	1    1350 3950
 	0    1    1    0   
@@ -584,7 +540,7 @@ U 1 1 5CE9B201
 P 1350 4250
 F 0 "R_RXCAN1" V 1430 4250 50  0000 C CNN
 F 1 "680R" V 1350 4250 50  0000 C CNN
-F 2 "" V 1280 4250 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 1280 4250 50  0001 C CNN
 F 3 "" H 1350 4250 50  0001 C CNN
 	1    1350 4250
 	0    1    1    0   
@@ -649,7 +605,7 @@ U 1 1 5CE9BDE6
 P 6750 4300
 F 0 "R_POWER1" V 6830 4300 50  0000 C CNN
 F 1 "680R" V 6750 4300 50  0000 C CNN
-F 2 "" V 6680 4300 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6680 4300 50  0001 C CNN
 F 3 "" H 6750 4300 50  0001 C CNN
 	1    6750 4300
 	0    1    1    0   
@@ -670,4 +626,79 @@ Wire Wire Line
 	1100 3950 1200 3950
 Wire Wire Line
 	1500 3950 1600 3950
+Wire Wire Line
+	2550 3200 3250 3200
+Text Label 2550 3200 2    60   ~ 0
+BAU
+Text Label 6800 4750 2    60   ~ 0
+BAU
+$Comp
+L Conn_01x02_Male J_BAU1
+U 1 1 5CEA0544
+P 7000 5050
+F 0 "J_BAU1" H 7000 5150 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 7000 4850 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 7000 5050 50  0001 C CNN
+F 3 "" H 7000 5050 50  0001 C CNN
+	1    7000 5050
+	0    -1   -1   0   
+$EndComp
+Text Label 7350 4750 0    60   ~ 0
+5VL
+Wire Wire Line
+	6800 4750 7000 4750
+Wire Wire Line
+	7000 4750 7000 4850
+Wire Wire Line
+	7100 4850 7100 4750
+Wire Wire Line
+	7100 4750 7350 4750
+$Comp
+L Conn_02x04_Odd_Even J_I2C1
+U 1 1 5CEA27A7
+P 10150 1000
+F 0 "J_I2C1" H 10200 1200 50  0000 C CNN
+F 1 "Conn_02x04_Odd_Even" H 10200 700 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x04_Pitch2.54mm" H 10150 1000 50  0001 C CNN
+F 3 "" H 10150 1000 50  0001 C CNN
+	1    10150 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_02x04_Odd_Even J_I2C2
+U 1 1 5CEA29D2
+P 10150 1700
+F 0 "J_I2C2" H 10200 1900 50  0000 C CNN
+F 1 "Conn_02x04_Odd_Even" H 10200 1400 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x04_Pitch2.54mm" H 10150 1700 50  0001 C CNN
+F 3 "" H 10150 1700 50  0001 C CNN
+	1    10150 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_02x03_Odd_Even J_3V3
+U 1 1 5CEA2AD8
+P 10150 2500
+F 0 "J_3V3" H 10200 2700 50  0000 C CNN
+F 1 "Conn_02x03_Odd_Even" H 10200 2300 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm" H 10150 2500 50  0001 C CNN
+F 3 "" H 10150 2500 50  0001 C CNN
+	1    10150 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_02x03_Odd_Even J_5VL1
+U 1 1 5CEA2B2B
+P 10150 3050
+F 0 "J_5VL1" H 10200 3250 50  0000 C CNN
+F 1 "Conn_02x03_Odd_Even" H 10200 2850 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm" H 10150 3050 50  0001 C CNN
+F 3 "" H 10150 3050 50  0001 C CNN
+	1    10150 3050
+	1    0    0    -1  
+$EndComp
+Text Label 5850 4450 0    60   ~ 0
+CANH
+Text Label 5850 4950 0    60   ~ 0
+CANL
 $EndSCHEMATC

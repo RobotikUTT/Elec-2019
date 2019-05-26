@@ -1,4 +1,4 @@
-update=sam. 25 mai 2019 19:06:17 CEST
+update=dim. 26 mai 2019 00:18:29 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -64,3 +64,13 @@ LibName32=valves
 LibName33=/home/romain/Documents/UTT/Robotik/Coupe_2019/Elec-2019/lib/2x16busconnector
 LibName34=/home/romain/Documents/KiCad/kicad-libs/kicad_ArduinoNano-master/libraries/arduino_nano
 LibName35=/home/romain/Documents/UTT/Robotik/Coupe_2019/Elec-2019/lib/mcp2515-18lead
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
