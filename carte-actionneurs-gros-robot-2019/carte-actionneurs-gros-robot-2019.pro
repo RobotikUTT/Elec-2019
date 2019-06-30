@@ -1,4 +1,4 @@
-update=ven. 24 mai 2019 18:10:24 CEST
+update=mar. 28 mai 2019 19:31:17 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,6 +25,16 @@ version=1
 NetIExt=net
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [eeschema]
 version=1
 LibDir=
@@ -62,3 +72,6 @@ LibName30=atmel
 LibName31=contrib
 LibName32=valves
 LibName33=/home/romain/Documents/UTT/Robotik/Coupe_2019/Elec-2019/lib/2x16busconnector
+LibName34=/home/romain/Documents/KiCad/kicad-libs/kicad_ArduinoNano-master/libraries/arduino_nano
+LibName35=/home/romain/Documents/UTT/Robotik/Coupe_2019/Elec-2019/lib/mcp2515-18lead
+LibName36=/home/romain/Documents/UTT/Robotik/Coupe_2019/Elec-2019/lib/pololua4988
